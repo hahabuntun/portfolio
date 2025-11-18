@@ -1,0 +1,53 @@
+.layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.content {
+  padding: 0 50px;
+  margin-top: 64px;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.section {
+  background: white;
+  margin: 24px 0;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #1890ff;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.project-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tag {
+  margin: 4px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 0 20px;
+  }
+  
+  .section {
+    padding: 16px;
+  }
+}
